@@ -39,13 +39,14 @@ int main() {
   insert(10);
   insert(20);
   insert(30);
+  insert(50);
 
-  node *found_node = search(20);
+  node *found_node = search(50);
 
   if (found_node != NULL) {
-    printf("The node containing the data 20 was found.\n");
+    printf("The node containing the data 50 was found.\n");
   } else {
-    printf("The node containing the data 20 was not found.\n");
+    printf("The node containing the data 50 was not found.\n");
   }
 
   return 0;

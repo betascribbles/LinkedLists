@@ -62,7 +62,7 @@ int main() {
 
   print();
 
-  delete(20);
+  delete(10);
 
   print();
 
